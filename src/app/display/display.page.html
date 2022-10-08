@@ -1,0 +1,34 @@
+
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Preview</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- <div [innerHtml]="data"></div> -->
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeSm="4" offsetSm="4">
+
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <p><quill-view-html [content]="data"></quill-view-html></p>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

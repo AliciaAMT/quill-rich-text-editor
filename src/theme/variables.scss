@@ -234,3 +234,26 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+
+.ql-toolbar .ql-stroke {
+  fill: none !important;
+  stroke: rgb(192, 192, 192) !important;
+}
+.ql-toolbar {
+  font-size: 20px;
+}
+.ql-toolbar .ql-fill {
+  fill: rgb(193, 193, 193) !important;
+  stroke: none !important;
+}
+
+.ql-toolbar .ql-picker {
+  color: rgb(192, 192, 192) !important;
+}
+
+.ql-editor {
+  background: rgb(191, 191, 191);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
